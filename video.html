@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>video-js</title> 
+    <!--video-->
+    <link rel="stylesheet" href="https://secoa20201.github.io/video-js/css/video-js.css">
+	<script src="https://secoa20201.github.io/video-js/js/video.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://secoa20201.github.io/video-js/css/estilos.css"> 
+
+</head>
+<body>
+    
+
+	<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video" poster="https://www.themoviedb.org/t/p/original/egS5SHI4Ppwmb65lUjqsy79ASnN.jpg">
+                <source src="https://biloa.website/stream/360/0AaS0DCJzeFsnQP.mp4" type="video/mp4">
+  </video> 
+
+    
+
+  <script>
+  	var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+  </script>
+</body>
+</html>
